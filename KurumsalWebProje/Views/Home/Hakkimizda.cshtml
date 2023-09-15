@@ -1,0 +1,17 @@
+﻿@model KurumsalWebProje.Models.Model.Hakkimizda
+@{
+    ViewBag.Title = "Hakkımızda";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+
+<div class="container">
+    <div class="col-md-12">
+        <h4>Hakkımızda</h4>
+        <img src="/Content/SiteLayout/img/dummies/dummy-1.jpg" alt="" class="align-center img-box img-responsive" />
+        <p>
+            @Html.Raw(Model.Aciklama)
+        </p>
+    </div>
+
+</div>
